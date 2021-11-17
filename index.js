@@ -12,7 +12,6 @@ const fetchWeather = async ({ lat, lon }) => {
     {
       headers: {
         "X-Yandex-API-Key": "fe70a1e6-71d9-47cb-b9b8-dcf7d9413f56",
-        // "apikey": "d104022f-e6f6-4d01-8182-2d11337e478a",
         
       },
     }
@@ -31,6 +30,6 @@ app.get("/weather", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
