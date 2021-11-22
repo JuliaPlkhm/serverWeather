@@ -12,7 +12,7 @@ const fetchWeather = async ({ lat, lon }) => {
     `https://api.weather.yandex.ru/v2/forecast?lat=${lat}&lon=${lon}&[lang=ru_RU]`,
     {
       headers: {
-        "X-Yandex-API-Key": "fe70a1e6-71d9-47cb-b9b8-dcf7d9413f56",
+        "X-Yandex-API-Key": "dc30a81d-aa9f-4cf3-82e3-3b7aec78dbd0",
         
       },
     }
