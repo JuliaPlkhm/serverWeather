@@ -36,5 +36,5 @@ app.listen(process.env.PORT || port, () => {
 });
 
 setInterval(function () {
-    http.get("https://server-weather-api.herokuapp.com/");
+    http.get("https://weather-be-server.herokuapp.com/");
   }, 300000);
